@@ -66,3 +66,4 @@ function showQuestion() {
   document.getElementById('category-select').classList.add('hidden');
     document.getElementById('question-screen').classList.remove('hidden');
   }
+

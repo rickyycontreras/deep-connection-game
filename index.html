@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep Connection Game</title>
+  <!-- Google Fonts for a modern, inviting typeface -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Deep Connection Game</h1>
+  </header>
+  <main id="game-container">
+    <!-- Card wrapper focuses content on top of the textured background -->
+    <div class="card">
+      <!-- Audience selection screen -->
+      <div id="category-select">
+        <h2>Select your audience</h2>
+        <div class="button-group">
+          <button data-category="friends">Friends</button>
+          <button data-category="lovers">Lovers</button>
+          <button data-category="family">Family</button>
+          <button data-category="coworkers">Coworkers</button>
+        </div>
+      </div>
+
+      <!-- Question display screen -->
+      <div id="question-screen" class="hidden">
+        <p id="question-text" class="fade-in"></p>
+        <button id="next-button">Next Question</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Connect deeper with every question.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
